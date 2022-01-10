@@ -248,7 +248,7 @@ class CardControllerWidget extends StatelessWidget {
                 Align(
                     child: Text(
                   titles![i],
-                  style: titleTextStyle.copyWith(fontSize: getFontSize(i)),
+                  style: titleTextStyle,
                   textAlign: TextAlign.center,
                 )),
               ],
